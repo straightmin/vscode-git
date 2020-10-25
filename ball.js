@@ -21,7 +21,7 @@ export class Ball {
         if(this.x <= minX || this.x >= maxX) {
             this.vx *= -1;
         }
-        if(this.x <= minY || this.x >= maxY) {
+        if(this.y <= minY || this.y >= maxY) {
             this.vy *= -1;
         }
 
@@ -31,3 +31,4 @@ export class Ball {
         ctx.fill();
     }
 }
+//complete
